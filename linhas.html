@@ -8,47 +8,49 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <header>
-        <h1>Navegação Amazonas</h1>
-        <p>Conheça Nossas rotas!</p>
-        <nav>
-            <a href="index.html">Página Inicial</a>&nbsp;&nbsp;
-            <a href="frota.html">Frota</a>&nbsp;&nbsp;
-            <a href="pacotes.html">Pacotes</a>&nbsp;&nbsp;
-            <a href="sobre_nos.html">Sobre nos</a>&nbsp;&nbsp;
-        </nav>
-    </header>
+    <nav class="navebar">
+        <div class="logo">
+            <h1>Navegação Amazonas</h1>
+        </div>
+        
+
+        <div class="menu">
+            <a href="index.html">Pagina inicial</a>
+            <a href="frota.html">Frota</a>
+            <a href="pacotes.html">Pacotes</a>
+            <a id="nos" href="sobre.html">Sobre nos</a>
+        </div>
+
+    </nav>
 
     <main>
-        <h2>Rotas mais procuradas</h2>
-
+        <h2 id="h2-linha">Rotas mais procuradas</h2>
         <section>
-            <strong>Manaus - Manaquiri</strong>
-            <address>Saída: 06Hs da manhã.</address>
-            <address>Local: Balsa Amarela</address>
-        </section>
-        <hr>
-
-        <section>
+            <div class="card">            
+                <strong>Manaus - Manaquiri</strong>
+                <address>Saída: 06Hs da manhã.</address>
+                <address>Local: Balsa Amarela</address>
+            </div>
+            <div class="card">
             <strong>Manaus - Tabatinga</strong>
             <address>Saída: 05hs da manhã.</address>
             <address>Local: Balsa Amarela</address>
-        </section>
-        <hr>
-
-        <section>
+        </div>
+        <div class="card">
             <strong>Manaus - Parintis</strong>
             <address>Saída: 16hs</address>
             <address>Local: Balsa Amarela</address>
+        </div>
         </section>
 
     </main>
 
-    <footer><!--rodape da pagina-->
-        <h3>Navegação Amazonas</h3>
+    <footer>
+        <div class="logo-rodape">
+        <h1>Navegação Amazonas</h1>
         <p>Conectando o Amazonas!</p>
-        <a href="index.html">Página inicial</a>
-    </footer>
+    </div>
+    </footer> 
     
 </body>
 </html>

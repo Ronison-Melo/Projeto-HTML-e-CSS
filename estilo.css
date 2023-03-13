@@ -52,7 +52,7 @@ body{
 #nos:hover{
     border:none;
     background: #1542c7;
-   
+    padding: 15px 30px;
 }
 main{
     height: auto;
@@ -68,29 +68,32 @@ form{
     border: none;
     padding: 20px 16px;
     font-weight: bold;
-   
+    color: white;
 }
-#enviar{
+#pesquisar{
     border-radius: 10px;
     border: none;
     padding: 20px 20px;
     background: #102b7c;
     color: white;
+    text-decoration: none;
 }
-#enviar:hover{
+#pesquisar:hover{
     background: #1542c7;
+    padding: 22px 22px;
 }
 section{
-    display: flex;
-    margin-top: 50px;
-    margin-left: 5%;
-    margin-right: 5%;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 25px;
+    margin-right: 25px;
     background: white;
     text-align: center;
+    /*border: 2px solid red;*/
 }
 .servicos{
     display: inline-block;
-    margin-top: 5%;
+    margin-top: 3%;
 }
 .servicos h2{
     font-size: 40px;
@@ -102,7 +105,7 @@ section{
     padding: 20px;
     margin: 1%;
     border: 1px solid #4a3c9b;
-    border-radius: 35% 10%;
+    border-radius:  20% 5%;
     text-align: center;
     cursor: pointer;
     color: black;
@@ -111,10 +114,20 @@ section{
 .card:hover{
     background: #1542c7;
     color: white;
-    padding: 30px;
+    padding: 25px;
 }
+.card:hover .titulo-card{
+    color: white;
+}
+.titulo-card{
+    color: #102b7c;
+    font-size: 30px;
+    text-align: center;
+}
+
+
 footer{
-    margin-top: 150px;
+    margin-top: 160px;
     height: 160px;
     background: #102b7c;
     text-align: center;
@@ -126,9 +139,23 @@ footer{
     color: white;
     font-size: 20px;
 }
-#h2-linha{
+.titulo-section{
     text-align: center;
     color: #102b7c;
     font-weight: bold;
     font-size: 35px;
+}
+.box-nos{
+    border: 1px solid #9a0000;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 11px #a3a1a1;
+}
+#conteudo-nos{
+    margin-top: 50px;
+    text-align: center;
+    color: #102b7c;
+    
 }

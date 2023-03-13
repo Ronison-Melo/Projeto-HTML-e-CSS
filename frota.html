@@ -8,60 +8,68 @@
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <header>
-        <h1>Navegação Amazonas</h1>
-        <p>Conheça aqui toda nossa frota!</p>
-        <nav>
-            <a href="index.html">Página Inicial</a>
-            <a href="linhas.html">Nossas Linhas</a>&nbsp;&nbsp;
-            <a href="pacotes.html">Pacotes</a>&nbsp;&nbsp;
-            <a href="sobre.html">Sobre nos</a>&nbsp;&nbsp;
-        </nav>
-    </header>
+    <nav class="navebar">
+        <div class="logo">
+            <h1>Navegação Amazonas</h1>
+        </div>
+
+        <div class="menu">
+            <a href="linhas.html">Nossas Linhas</a>
+            <a href="frota.html">Frota</a>
+            <a href="pacotes.html">Pacotes</a>
+            <a id="nos" href="sobre.html">Sobre nos</a>
+        </div>
+
+    </nav>
+    
     
     <main>
-        <h2>Nossa Frota</h2>
-       
+        <h2 class="titulo-section">Nossa Frota</h2>
         <section >
-            <strong>Expresso Amazonas</strong>
-            <p>Capacidade: 130 pax</p>
-            <p>Motor: Mercedes 650 Hp</p>
-        </section>
-        <hr>
+            
+            <div class="servicos">
+            
+                <div class="card">
+                    <strong>Expresso Amazonas</strong>
+                    <p>Capacidade: 130 pax</p>
+                    <p>Motor: Mercedes 650 Hp</p>
+                </div>
 
-        <section >
-            <strong>Expresso Solimões</strong>
-            <p>Capacidade: 80 pax</p>
-            <p>Motor: Mercedes 650 Hp</p>
-        </section>
-        <hr>
+                <div class="card">
+                    <strong>Expresso Solimões</strong>
+                    <p>Capacidade: 80 pax</p>
+                    <p>Motor: Mercedes 650 Hp</p>
+                </div>
 
-        <section >
-            <strong>Barco Comandante Oliveira</strong>
-            <p>Capacidade: 130 pax</p>
-            <p>Motor: Mercedes 350 Hp</p>
-        </section>
-        <hr>
+                <div class="card">
+                    <strong>Barco Comandante Oliveira</strong>
+                    <p>Capacidade: 130 pax</p>
+                    <p>Motor: Mercedes 350 Hp</p>
+                </div>
 
-        <section >
-            <strong>Ferry Boat Navegante</strong>
-            <p>Capacidade: 350 pax</p>
-            <p>Motor:  02 Mercedes 950 Hp</p>
-        </section>
-        <hr>
+                <div class="card">
+                    <strong>Ferry Boat Navegante</strong>
+                    <p>Capacidade: 350 pax</p>
+                    <p>Motor:  02 Mercedes 950 Hp</p>
+                </div>
 
-        <section >
-            <strong>Navio Nm Mercante</strong>
-            <p>Capacidade: 160 pax</p>
-            <p>Motor: Scania 950 Hp</p>
-        </section>
-        <hr>
+                <div class="card">
+                    <strong>Navio Nm Mercante</strong>
+                    <p>Capacidade: 160 pax</p>
+                    <p>Motor: Scania 950 Hp</p>
+                </div>
+
+        </div>
+    </section>
+        
 
     </main>
 
-    <footer><!--rodape da pagina-->
-        <h3>Navegação Amazonas</h3>
+    <footer>
+        <div class="logo-rodape">
+        <h1>Navegação Amazonas</h1>
         <p>Conectando o Amazonas!</p>
-    </footer>
+    </div>
+    </footer>  
 </body>
 </html>

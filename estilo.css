@@ -102,14 +102,14 @@ section{
     display:inline-block;
     background: white;
     width: 30%;
-    padding: 20px;
+    padding: 10px;
     margin: 1%;
     border: 1px solid #4a3c9b;
-    border-radius:  20% 5%;
+    border-radius: 10px;
     text-align: center;
     cursor: pointer;
     color: black;
-    box-shadow: 5px 5px 11px #a3a1a1;
+    box-shadow: 7px 9px 11px #a3a1a1
 }
 .card:hover{
     background: #1542c7;

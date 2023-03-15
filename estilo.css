@@ -77,6 +77,7 @@ form{
     background: #102b7c;
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 #pesquisar:hover{
     background: #1542c7;
@@ -158,4 +159,13 @@ footer{
     text-align: center;
     color: #102b7c;
     
+}
+.index-pagina{
+    border: 2px solid red;
+    display: inline-block;
+    margin-right: 500px;
+}
+.numero{
+    text-decoration: none;
+    font-size: 20px;
 }

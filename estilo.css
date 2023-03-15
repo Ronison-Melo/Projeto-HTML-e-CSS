@@ -161,11 +161,28 @@ footer{
     
 }
 .index-pagina{
-    border: 2px solid red;
-    display: inline-block;
-    margin-right: 500px;
+    border: 2px solid #1542c7;
+    margin-right: 20px;
+    font-size: 25px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
 }
-.numero{
+.numeracao{
+    /*border: 3px solid green;*/
+    display: flex;
+    margin-top: 50px;
+    margin-left: 50%;
+    margin-right: 50%;
+}
+.index-pagina:hover{
+    background: #102b7c;
+    
+}
+.index-pagina:hover a{
+    color: white;
+}
+.numeracao a{
+    color: #102b7c;
     text-decoration: none;
-    font-size: 20px;
 }

@@ -6,4 +6,6 @@ Mais adiante será acrescentado JavaScript
 
 **Aqui é uma atualização do Readme
 
+Clique no link abaixo e veja o projeto.
+
 https://ronison-melo.github.io/Projeto-HTML-e-CSS/
